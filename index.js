@@ -11,14 +11,14 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "What is your project title?",
+        message: "Project title?",
         
     },
     // prompt for project Description
     {
         type: "input",
         name: "description",
-        message: "Please enter your project description.",
+        message: "Project description?",
     
     },
 
@@ -26,7 +26,7 @@ const questions = [
     {
         type: "input",
         name: "installation",
-        message: "What are the steps required to install your project?",
+        message: "Installation instructions?",
         
     },
 
@@ -34,7 +34,23 @@ const questions = [
     {
         type: "input",
         name: "usage",
-        message: "Provide instructions and examples of how to use this project.",
+        message: "Project usage instructions?",
+        
+    },
+    
+    // Question for Contributing 
+    {
+        type: "input",
+        name: "contributing",
+        message: "How can users contribute to your project.",
+        
+    },
+
+    // Question for Tests
+    {
+        type: "input",
+        name: "tests",
+        message: "Please enter any testing instructions you would like to provide for this project.",
         
     },
 
@@ -55,27 +71,11 @@ const questions = [
         
     },
 
-    // Question for Contributing 
-    {
-        type: "input",
-        name: "contributing",
-        message: "How can users contribute to your project.",
-        
-    },
-
-    // Question for Tests
-    {
-        type: "input",
-        name: "tests",
-        message: "Please enter any testing instructions you would like to provide for this project.",
-        
-    },
-
     // QUESTIONS section -- github 
     {
         type: "input",
         name: "userName",
-        message: "What is your GitHub username?",
+        message: "Your GitHub username?",
     },
 
     // QUESTIONS section -- email address
@@ -94,9 +94,11 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-    inquirer.prompt(questions).then((data) => console.log("Success!"));
-
-}
+    inquirer.prompt(questions).then((data) => {
+        fs.writeFile('Readme.md', generateMarkdown(data), (err) =>
+      err ? console.log(err) : console.log('Success!')
+    )}
+)}
 
 // function call to initialize program
 init();
