@@ -74,14 +74,14 @@ const questions = [
     // QUESTIONS section -- github 
     {
         type: "input",
-        name: "userName",
+        name: "username",
         message: "Your GitHub username?",
     },
 
     // QUESTIONS section -- email address
     {
         type: "input",
-        name: "userEmail",
+        name: "email",
         message: "What is your GitHub email address that contributors may contact?",
         
     },
