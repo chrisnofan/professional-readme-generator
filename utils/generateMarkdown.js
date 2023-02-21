@@ -1,6 +1,6 @@
-// Function to render license badge
-function renderBadge(licenseChoice) {
-  switch (licenseChoice) {
+// Function to display license badge
+function displayBadge(choosenLisense) {
+  switch (choosenLisense) {
     case 'Apache License 2.0':
       return '![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)';
       break;
@@ -28,15 +28,15 @@ function renderBadge(licenseChoice) {
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-${renderBadge(data.license)}
+${displayBadge(data.license)}
 
 ## Description
 ${data.description}
 
 ## Table of Contents
 * [Installation](#installation)
-* [Usage](#usage-🎮)
-* [License](#installation)
+* [Usage](#usage)
+* [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
@@ -44,7 +44,7 @@ ${data.description}
 ## Installation
 ${data.installation}
 
-## Usage 🎮
+## Usage
 ${data.usage}
 
 ## License

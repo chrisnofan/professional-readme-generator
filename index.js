@@ -96,7 +96,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((data) => {
         fs.writeFile('./sample/README.md', generateMarkdown(data), (err) =>
-      err ? console.log(err) : console.log('Success!')
+      err ? console.log(err) : console.log('A Professional README file for your project has been successfully created in the Sample folder')
     )}
 )}
 
