@@ -46,17 +46,17 @@ When a user is prompted for information about the application repository, a high
 
   - Questions
 
-When a user enters the project title, it's displayed as the title of the README.
+- When a user enters the project title, it's displayed as the title of the README.
 
-When a user enters a description, installation instructions, usage information, contribution guidelines, and test instructions, this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests.
+- When a user enters a description, installation instructions, usage information, contribution guidelines, and test instructions, this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests.
 
-When a user chooses a license for their application from a list of options, a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under.
+- When a user chooses a license for their application from a list of options, a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under.
 
-When a user enters their GitHub username, it's added to the section of the README entitled Questions, with a link to their GitHub profile.
+- When a user enters their GitHub username, it's added to the section of the README entitled Questions, with a link to their GitHub profile.
 
-When a user enters their email address, it's added to the section of the README entitled Questions, with instructions on how to reach them with additional questions.
+- When a user enters their email address, it's added to the section of the README entitled Questions, with instructions on how to reach them with additional questions.
 
-When a user clicks on the links in the Table of Contents, they are taken to the corresponding section of the README.
+- When a user clicks on the links in the Table of Contents, they are taken to the corresponding section of the README.
 
 ## License
 
@@ -72,7 +72,12 @@ Create a personal fork of the project on Github and make a clean pull request.
 
 The application can be accessed and tested following [the link to GitHub repository](https://github.com/chrisnofan/professional-readme-generator).
 
-**Application demo**
+## Application demo
+
+Below is a screenshot of the generated README file
+
+![Alt text](./assets/Capture.PNG?raw=true "README Screenshot")
+
 
 The following walkthrough video demonstrates the application's functionality:
 
