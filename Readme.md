@@ -1,6 +1,8 @@
-# readme
+# Readme
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 ## Description 🔎
-jt0ha0TH
+thtahta
 
 ## Table of Contents 📖
 * [Installation](#installation-⚙️)
@@ -11,23 +13,23 @@ jt0ha0TH
 * [Questions](#questions-🙋)
 
 ## Installation ⚙️
-A]TAHTOHQAT
+thaoth[at
 
 ## Usage 🎮
-HTOAH]T'[HJ
+athaotha
 
 ## License
-GNU GPLv3
+MIT license
 
 ## Contributing 🧑‍🤝‍🧑
-HTOHA'[T
+athaotha
 
 ## Tests 🧪
-HTOHA'[T
+athatoha
 
 ## Questions 🙋
-If there are any questions, feel free to contact my email at: AHT'AH.
-You can also find me on GitHub at: [HAHTA'[H](https://www.github.com/HAHTA'[H)
+If there are any questions, feel free to contact my email at: athath.
+You can also find me on GitHub at: [taopthapo](https://www.github.com/taopthapo)
 
 
 
